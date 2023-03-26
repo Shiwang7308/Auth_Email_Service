@@ -6,9 +6,9 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv');
 dotenv.config();
 
-const User = require('../models/user-model.js')
+const User = require('./models/user-model.js')
 
-const emailNotification = require('../emailNotification/email-service.js');
+const emailNotification = require('./emailNotification/email-service.js');
 
 // middleware setup
 app.use(cors())
