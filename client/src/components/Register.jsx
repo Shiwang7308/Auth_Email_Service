@@ -74,7 +74,7 @@ export default function Sample() {
 		const res = await response.json()
          console.log(res);
 		if (res.success === true) {
-			navigate('/Dashboard')
+			navigate('/Login')
 		}
 		else
 		{

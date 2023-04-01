@@ -33,8 +33,9 @@ export default function Sample2() {
              setPassword("");
 		} else {
 			alert('Login Successful');
-            navigate('/dashboard')
+            // navigate('/dashboard')
             // window.location.replace('http')
+            window.location.replace('https://hackathon-piic-logout-final1.vercel.app/')
 		}
 	}
 
