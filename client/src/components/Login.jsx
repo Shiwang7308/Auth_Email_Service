@@ -35,7 +35,7 @@ export default function Sample2() {
 			alert('Login Successful');
             // navigate('/dashboard')
             // window.location.replace('http')
-            window.location.replace('https://hackathon-piic-logout-final1.vercel.app/')
+            window.location.replace('https://hackathon-piic-logout-final1-4x4djhfgo-shiwang7308.vercel.app/')
 		}
 	}
 
